@@ -120,13 +120,13 @@ var displayQuiz = function () {
 $("#btn").on("click", function () {
     // start timer
     $("#btn").remove();
+    $("p.card-text").remove();
     displayQuiz();
 });
 
 // click answer
 $(".answer-body").click(function() {
     num++;
-    $("#question").remove();
     $("button").remove();
     displayQuiz();
 });
