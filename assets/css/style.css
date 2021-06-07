@@ -1,0 +1,10 @@
+* {
+    color: black;
+}
+.btn {
+    background-color: rgb(163, 29, 204);
+}
+
+.answer-choices table tbody tr{
+    justify-content: left
+}
